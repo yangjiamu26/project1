@@ -1,0 +1,14 @@
+git init 命令把这个目录变成Git可以管理的仓库
+git commit -m "说明"
+git status 时刻掌握仓库当前的状态
+git diff 查看不同
+
+git add
+
+git log 查看日志  （--pretty=oneline参数只在一行显示）
+git reset --head HEAD~1回退版本和
+
+git reflog 记录你的每一次命令
+git diff HEAD -- readme.txt命令可以查看工作区和版本库里面最新版本的区别：
+
+git checkout -- readme.txt
